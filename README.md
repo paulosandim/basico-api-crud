@@ -1,0 +1,1 @@
+[Curso de introdução ao desenvolvimento de API Restful com Node.js, ExpressJS e Typescript.](https://youtube.com/playlist?list=PLE0DHiXlN_qqOfRvFS0BiwZXGrsKs7HFx&si=gZvKxuQ_kjEsIGld)
