@@ -2,6 +2,9 @@ const express = require('express')
 const app = express()
 
 app.get('/projects', function(request, response) {
+  const {title, owner, page} = request.query
+  console.log(title, owner, page)
+
   return response.json([
     'Projeto 1',
     'Projeto 2'
@@ -30,7 +33,6 @@ app.delete('/projects/:id', function(request, response) {
     'Projeto 3'
   ])
 })
-
 
 app.listen(3000, () => {
   console.log('Server started on port 3000!')
